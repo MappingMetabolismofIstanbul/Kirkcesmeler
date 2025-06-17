@@ -16,7 +16,7 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: 'Kırkçeşmeler',
+    title: 'Kırıkçeşmeler',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
@@ -26,12 +26,12 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/zVfs2h9N/k-rk-e-meler.png',
+            image: '',
             description: '',
             location: {
-                center: [28.955975724055627,41.01659450670048],
-                zoom: 15,
-                pitch: 0,
+                center: [28.955984521426892,41.01659359070544],
+                zoom: 13,
+                pitch: 60,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -41,6 +41,66 @@ var config = {
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '2',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: 'https://i.ibb.co/v4TKHxZM/KIRIK-E-MELER.png',
+            description: '',
+            location: {
+                center: [28.955984521426892,41.01659359070544],
+                zoom: 17,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
+            id: '3',
+            alignment: 'right',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [28.955984521426892,41.01659359070544],
+                zoom: 17,
+                pitch: 60,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0,
                 //     duration: 5000
                 // }
             ],
