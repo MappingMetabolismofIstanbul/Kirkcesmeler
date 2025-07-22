@@ -23,7 +23,7 @@ var config = {
     chapters: [
         {
             id: '1',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '',
             image: '',
