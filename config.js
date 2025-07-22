@@ -56,7 +56,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/v4TKHxZM/KIRIK-E-MELER.png',
+            image: 'https://i.ibb.co/d03zCTzr/k-rk1.png',
             description: '',
             location: {
                 center: [28.955984521426892,41.01659359070544],
@@ -86,7 +86,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: '',
+            image: 'https://i.ibb.co/v62Jg1NF/k-rk2.png',
             description: '',
             location: {
                 center: [28.955984521426892,41.01659359070544],
