@@ -86,7 +86,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/3m5Fxxhm/k-rk2-yeni.jpg',
+            image: '',
             description: '',
             location: {
                 center: [28.955984521426892,41.01659359070544],
