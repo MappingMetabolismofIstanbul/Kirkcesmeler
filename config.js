@@ -60,8 +60,8 @@ var config = {
             description: '',
             location: {
                 center: [28.955984521426892,41.01659359070544],
-                zoom: 17,
-                pitch: 60,
+                zoom: 17.8,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
@@ -71,36 +71,6 @@ var config = {
                 // {
                 //     layer: 'layer-name',
                 //     opacity: 1,
-                //     duration: 5000
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
-        },
-        {
-            id: '3',
-            alignment: 'right',
-            hidden: false,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [28.955984521426892,41.01659359070544],
-                zoom: 19,
-                pitch: 60,
-                bearing: 0
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0,
                 //     duration: 5000
                 // }
             ],
