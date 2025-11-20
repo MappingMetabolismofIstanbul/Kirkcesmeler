@@ -56,7 +56,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/d03zCTzr/k-rk1.png',
+            image: 'https://i.ibb.co/ynkRr8q3/aaaaaa.png',
             description: '',
             location: {
                 center: [28.955984521426892,41.01659359070544],
